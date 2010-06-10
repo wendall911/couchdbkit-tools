@@ -19,7 +19,7 @@
 See `python replicate.py --help` for usage.
 
 """
-from couchdbkit import Database, ResourceNotFound, PreconditionFailed, CouchdbResource
+from couchdbkit import Database, ResourceNotFound, PreconditionFailed, RequestFailed, CouchdbResource
 from restkit.util import url_quote
 
 import sys, optparse, time
