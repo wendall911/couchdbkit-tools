@@ -1,0 +1,16 @@
+Usage: replicate.py [options]
+  See replicate.py --help for a full list of options.
+
+Options:
+  -h, --help            show this help message and exit
+  --source-url=SOURCE_URL
+                        Url of the source server.
+  --target-url=TARGET_URL
+                        Url of the target server.
+  --source-db=SOURCE_DB
+                        Source database name.
+  --target-db=TARGET_DB
+                        Target database name.
+  --continuous          Set as a continuous replication.
+  --cancel              Cancel continuous replication.
+  --create-dbs          Create databases if missing.
